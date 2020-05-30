@@ -1,0 +1,359 @@
+.container{
+  width: 100%;
+  height: 100%;
+  
+}
+.navbar1
+  {
+    background-color: gray;
+    height:50px;
+  	width:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    
+  }
+  .rightmenu{
+  	float: right;
+  	margin-right:100px;
+  	margin-top: 10px;
+   
+  }
+  a{
+  	color: white;
+  	text-decoration: none;
+  	
+  }
+  .logo{
+  		width: 100%;
+  		height: 100px;
+  		margin-top: 50px;
+      margin-left: 100px;
+     
+
+
+  }
+  
+  .navbar
+    {
+      position: absolute;
+      height:50px;
+      width:100%;
+      background-color: rgb(52, 58, 64);
+      margin-top: 20px;
+      text-align: center;
+      color:rgb(52, 58, 64);
+      left: 0;
+      padding-top: 20px;
+
+    }
+
+ .image{
+    width: 100%;
+    height: 700px;
+    margin-top: 80px;
+
+   
+  }
+.bg_img{
+        width: 100%;              
+          height: 600px;
+          padding-top: 0px;
+          left: 0;
+           position: absolute;
+  }
+
+.opacity_bg{
+  width: 90%;
+  height: 500px;
+  margin-top: 50px;
+  margin-left:50px;
+  background-color:  black;
+ position: absolute;
+  opacity: 0.5;
+  display: flex;
+ 
+
+}
+.opacity_left{
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 150px;
+  position: absolute;
+
+
+}
+.opacity_right{
+ margin-left: 430px;
+  margin-top: 150px;
+  position: absolute;
+  color: white;
+  
+}
+.opacity_btn{
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.opacity_btn>button{
+  color: white;
+  background-color: darkorange;
+  width: 90px;
+  height: 30px;
+}
+
+  .margin{
+  width: 100%;
+  position: absolute;
+  margin-left: 50px;
+ 
+}
+ .row{
+  width: 70%;
+  margin-top: 30px;
+ 
+ }
+
+  .cards{
+ 
+ display: grid;
+  
+ grid-template-columns: repeat(3, 1fr);
+  
+ grid-auto-rows: auto;
+  
+ grid-gap: 2rem;
+  
+ }
+  
+ .card {
+  
+ border: 2px solid #e7e7e7;
+  
+ border-radius: 4px;
+  
+ padding: .5rem;
+ height: 300px;
+ width: 300px;
+ 
+  
+ }
+
+
+ h2{
+  text-align: center;
+
+ }
+ .card>p{
+  text-align: justify;
+ }
+button{
+  background-color: darkorange;
+  color: white;
+  width: 90px;
+  height: 30px;
+  margin-left: 200px;
+
+}
+.rector{
+  
+  margin-top: 100px;
+  display: flex;
+  width: 70%;
+  
+}
+.left_rector{
+  width: 50%;
+  
+}
+
+.right_rector{
+ 
+}
+.middle{
+  width: 20%;
+}
+.img_rector{
+  width: 300px;
+  height: 300px;
+}
+.event{
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.event>h1{
+  text-align: center;
+  color: darkorange;
+  font-weight: bold;
+}
+.event_row{
+  width: 100%;
+}
+
+
+.event_img{
+  width: 20%;
+  height: 200px;
+}
+.event_row2{
+  float: right;
+  margin-right: 200px;
+
+}
+
+.welcome{
+  width: 86%;
+  margin-top: 400px;
+  position: absolute;
+}
+.welcome_row>h1{
+
+  color: darkorange;
+  font-weight: bold;
+  text-align: center;
+}
+
+.welcome_row>p{
+  
+  position: absolute;
+  text-align: justify;
+}
+.welcome_btn>button{
+  margin-top:150px;
+  margin-left: 500px;
+}
+
+.background{
+  width: 100%;
+ margin-top: 1500px;
+  height: 300px;
+left: 0;
+position: absolute;
+
+
+}
+.bcards{
+ 
+ display: grid;
+  
+ grid-template-columns: repeat(3, 1fr);
+  
+ grid-auto-rows: auto;
+  
+ grid-gap: 2rem;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+ }
+  
+ .bcard {
+  
+ border: 2px solid #e7e7e7;
+  
+ border-radius: 4px;
+  
+ padding: .5rem;
+ height: 150px;
+ width: 300px;
+ 
+  
+ }
+
+ .update{
+  width: 100%;
+  margin-top: 1900px;
+
+  
+ }
+
+ .update_cards{
+ 
+ display: grid;
+  
+ grid-template-columns: repeat(3, 1fr);
+  
+ grid-auto-rows: auto;
+  
+ grid-gap: 2rem;
+  
+  margin-top: 50px;
+  margin-left: 100px;
+ }
+  
+ .update_card {
+ border: .5px solid #e7e7e7;
+ border-radius: 4px;
+ padding: .5rem;
+ height: 300px;
+ width: 300px; 
+  
+ }
+ .update>h1{
+
+  color: darkorange;
+  font-weight: bold;
+  text-align: center;
+}
+.update_img{
+  width: 100%;
+  height: 200px;
+}
+
+.update_card_p>p{
+  color: darkorange;
+  font-size: 16px;
+
+}
+.update_card_p{ 
+
+}
+.update2{
+    width: 100%;
+  margin-top: 50px;
+  margin-bottom: 200px;
+
+}
+.update_btn{
+  float: right;
+  margin-right: 50px;
+ margin-bottom: 200px;
+ margin-top: 50px;
+
+}
+ .footer {       
+    left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgb(52, 58, 64);
+    display: flex;
+    color: rgb(248, 249, 250);
+    height: 500px;
+    position: absolute;
+    
+    
+}
+.footer_left{
+  width: 40%;
+  margin-left: 50px;
+  
+}
+.footer_middle{
+  width: 30%;
+  margin-left: 50px;
+}
+.footer_right{
+  width: 30%;
+   margin-left: 50px;
+}
+
+ .left1{
+    float:left;
+   width:40%;
+}
+ .right1
+ {
+  float:right;
+   width:60%;
+}
