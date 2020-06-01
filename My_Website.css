@@ -1,0 +1,130 @@
+.container{
+	width: 100%;
+	height: 100%;
+}
+
+.name>h1{
+	margin-left: 500px;
+	color: peru;
+}
+.name{
+	width: 80%;
+}
+.bio{
+	margin-top: 50px;
+	width: 80%;
+	display: flex;
+
+}
+.bio_img{
+	width: 30%;
+	margin-left: 200px;
+
+}
+.bio_text{
+ font-size: 16px;
+
+ text-align: justify;
+}
+.edu{
+	width: 80%;
+	margin-top: 100px;
+}
+table{
+	margin-left: 200px;
+	border:darkgreen solid 2px;
+     border-collapse: collapse;
+}
+tr,td{
+	border:darkgreen solid;
+	height: 100px;
+}
+.edu>h2{
+	
+	margin-left: 500px;
+	color: darkgreen;
+}
+.experience{
+	width: 100%;
+	margin-top: 150px;
+	color: navy;
+}
+
+.row1{
+  width: 100%;
+  margin-top: 50px;
+
+  
+ }
+ .experience>h2{
+ 	margin-left: 500px;
+	color: darkgreen;
+ }
+
+ .cards{
+ 
+ display: grid;
+  
+ grid-template-columns: repeat(3, 1fr);
+  
+ grid-auto-rows: auto;
+  
+ grid-gap: 2rem;
+  
+  margin-top: 50px;
+  margin-left: 50px;
+ }
+  
+ .card {
+ border: .5px solid #e7e7e7;
+ border-radius: 4px;
+ padding: .5rem;
+ height: 300px;
+ width: 300px; 
+ transition: transform .2s; 
+ }
+  .card:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: scale(1.2);
+}
+
+ 
+.img{
+  width: 100%;
+  height: 200px;
+}
+
+
+.card_p{ 
+
+}
+.row2{
+    width: 100%;
+  margin-top: 50px;
+ 
+
+}
+.last{
+	width: 100%;
+	margin-top: 100px;
+	background-color: lightblue;
+	display: flex;
+
+}
+
+.projects{
+	width: 30%;
+	
+	margin-left: 300px;
+	
+}
+.projects>h2{
+	
+	margin-left: 50px;
+	
+}
+.address{
+
+}
+
