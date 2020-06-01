@@ -4,11 +4,11 @@
 }
 
 .name>h1{
-	margin-left: 500px;
+	margin-left:400px;
 	color: peru;
 }
 .name{
-	width: 80%;
+	width: 100%;
 }
 .bio{
 	margin-top: 50px;
@@ -22,6 +22,7 @@
 
 }
 .bio_text{
+	margin-left: 50px;
  font-size: 16px;
 
  text-align: justify;
@@ -125,6 +126,6 @@ tr,td{
 	
 }
 .address{
-
+	margin-left: 100px;
 }
 
