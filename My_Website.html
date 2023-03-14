@@ -3,25 +3,32 @@
 <head>
 	<title>Div Testing 2</title>
 	<link rel="stylesheet" type="text/css" href="My_Website.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 <body>
-	<div class="container">
-		<div class="name">
-			<h1>HI, I'M NANDAR LIN</h1>
+	<div class="container-fluid">
+		<div class="header">
+			<h1 style="text-align:center; color: peru;">HI, I'M NANDAR LIN</h1>
+			<br>
 		</div>
-		<div class="bio">
-			<div class="bio_img">
-				<img src="images/my.jpg" width="200px;" height="200px;">
+		<div class="row">
+			<div class="col-md-3">
+				<img src="images/my.jpg" class="img-responsive" width="90%">
 			</div>
-			<div class="bio_text">
-				<p>I am fourth year computer science student.I have a keen interest in web technology,mobile application.
+			<div class="col-md-9">
+				<p style="text-align: justify;">&nbsp;&nbsp;I am fourth year computer science student.I have a keen interest in web technology,mobile application.
+					I try to have the abilities and experiences needed to design and execute software projects for a diverse
+					variety of  users. Now ,I am continually evaluating and upgrading my skills so that I stays as a professional web developer.I am fourth year computer science student.I have a keen interest in web technology,mobile application.
 					I try to have the abilities and experiences needed to design and execute software projects for a diverse
 					variety of  users. Now ,I am continually evaluating and upgrading my skills so that I stays as a professional web developer.
 			</div>
 		</div>
-		<div class="edu">
-			<h2>Education</h2>
-			<table>
+		<br>
+		<div class="col-md-12">
+			<h2 style="text-align:center; color:darkgreen;">Education</h2>
+		</div>
+		<div class="col-md-12">
+			<table class="table-responsive table-striped">
 				<tr>
 					<td>Dec 2016 –May 2020</td>
 					<td>University of Computer Studies Magway</td>
@@ -34,14 +41,15 @@
 				</tr>
 				<tr>
 					<td>Oct 2018</td>
-					<td>InformationTechnological Passport Exam(held by ITPEC organisation)</td>
+					<td>InformationTechnological Passport Exam(held by ITPEC organisation)InformationTechnological Passport Exam(held by ITPEC organisation)</td>
 					<td>Pass</td>
 				</tr>		
 			</table>
 		</div>
-		<div class="experience">
-			<h2>Experience & Achievements</h2>
-			<div class="row1">
+		<br>	
+		<div class="row">
+			<h2 style="text-align:center; color:darkgreen;">Experience & Achievements</h2>
+			<div class="row">
           		<div class="cards">
             		<div class="card">
               			<img src="images/MPT.jpg" class="img">
@@ -104,8 +112,12 @@
           		</div> 
           	</div>
 		</div>
-		<div class="last">			
-			<div class="projects">
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="row" style="background-color:lightblue;">			
+			<div class="col-md-6">
 				<h2>Projects</h2>
 				<ol>
 				<li>For Our Kids(android)</li>
@@ -115,11 +127,11 @@
 			
 				</ol>
 			</div>					
-			<div class="address">
-                <p><h2>Contact Me</h2></p>
-                 <p>Email: <span>nandarlin229627@gmail.com</span> <br></p> 
-                 <p>Phone No: <span>09768059571</span><br></p> 
-                 <p>Address: <span>Taungdwingyi Township,Magway Region</span><br></p>                 
+			<div class="col-md-6">
+                <h2>Contact Me</h2>
+                 <p>Email: <a href="mailto:nandarlin229627@gmail.com" style="color:darkgreen;">nandarlin229627@gmail.com</a></p> 
+                 <p>Phone No: <a href="tel:09256578594" style="color:darkgreen;">09768059571</a></p> 
+                 <p>Address: <span style="color:darkgreen;">Taungdwingyi Township,Magway Region</span></p>                 
              </div> 
 		</div>
 	</div>
